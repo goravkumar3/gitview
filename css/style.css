@@ -81,7 +81,7 @@ main{
 }
 .webImage img{
     width: 100%;
-    filter:blur(1.2px);/*blur(2px),brightness(1.2),grayscale(2),invert(),hue-rotate(0deg-360deg)*/
+    filter:blur(1.5px);/*blur(2px),brightness(1.2),grayscale(2),invert(),hue-rotate(0deg-360deg)*/
 }
 #Service{
     margin-top: 300px;
