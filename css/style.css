@@ -15,6 +15,7 @@ nav{
     width: 100%;
     z-index: 1;
     height: auto;
+    flex-wrap: wrap;
 }
 .logo{
     font-size: 30px;
@@ -43,6 +44,7 @@ nav ul{
     display: flex;
     gap:20px;
     list-style: none;
+    flex-wrap: wrap;
 }
 nav ul a{
     text-decoration: none;
@@ -59,6 +61,7 @@ main{
     gap: 40px;
     background-color: aqua;
     height: 500px;
+    flex-wrap: wrap;
 }
 .info{
     width: 30%;
@@ -174,4 +177,33 @@ footer{
     border-radius: 20px;
     font-size: 20px;
     cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 100%;
+    }
+    main{
+        justify-content: center;
+        align-items: center;
+    }
+    .info{
+        padding-top: 100px;
+        width: 100%;
+        text-align: center;
+    }
+    .webImage{
+        width: 90%;
+    }
+    .card{
+        width: 90%;
+    }
+    .form{
+        width: 90%;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
